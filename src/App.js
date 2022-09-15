@@ -2,7 +2,7 @@ import "./App.css";
 import React, { Component } from "react";
 // import axios from 'axios'
 import AddTodo from "./components/AddTodo";
-import TodoList from "./components/TodoList";
+import ListTodo from "./components/ListTodo";
 
 export default class App extends Component {
   constructor(props) {
@@ -33,6 +33,15 @@ export default class App extends Component {
     });
   };
 
+  removeTodo = ()=>{
+
+  }
+
+  changeTodo = ()=>{
+
+  }
+
+
   render() {
     // const url = 'http://localhost:8000/todos'
 
@@ -44,7 +53,7 @@ export default class App extends Component {
       <div>
         <h1>Todo app</h1>
         <AddTodo addTodo={this.addTodo} />
-        <TodoList/>
+        <ListTodo todos={this.state.todos} />
       </div>
     );
   }
