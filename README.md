@@ -1,3 +1,10 @@
+1. npm start
+2. npm install -g json-server
+2.1. json-server --watch ./db.json --port 5000
+3 npm install react-icons --save
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
