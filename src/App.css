@@ -1,5 +1,71 @@
 .App {
   text-align: center;
+  background-color: rgb(62, 59, 59);
+  align-items: center;
+  height: 100vh;
 }
 
+.done {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
 
+.chek {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.chek :hover {
+  color: rgb(35, 178, 19);
+}
+
+.trash {
+  cursor: pointer;
+}
+
+.trash :hover {
+  color: rgb(233, 76, 28);
+}
+
+.buttonAdd {
+  background-color: aquamarine;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-right: 1.5vw;
+  padding-left: 1.5vw;
+  border-radius: 50%;
+  border-color: aquamarine;
+  font-size: large;
+  position: relative;
+  margin-left: -5.9vw;
+}
+
+.buttonAdd:hover {
+  box-shadow: 0px 0px 3px 3px aquamarine;
+  font-weight: 600;
+}
+
+.input-field {
+  width: 28vw;
+  padding: 1vw;
+  font-size: large;
+}
+
+.title {
+  padding-top: 6vh;
+  color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.task {
+  width: 29vw;
+  text-align: center;
+  color: rgb(39, 38, 38);
+  background-color: rgb(154, 154, 154);
+  padding: 7px;
+  font-size: 3vh;
+  margin-left: 34.5%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
